@@ -1,0 +1,37 @@
+Q1     ls -lt 
+Q2     ls -ls
+Q3     ls -i
+Q4     ls -R
+Q5.1   cat>>file.txt
+Q5.2   cat file.txt
+Q6     touch -t 201410111430 demo.txt
+Q7     mkdir one
+       cd one
+       touch 1.txt 11.txt 111.txt
+       mkdir two
+       cd two
+       touch 2.txt 22.txt 222.txt
+       mkdir three
+       cd three
+       touch 3.txt 33.txt 333.txt
+       mkdir four
+       cd four
+       touch 4.txt 44.txt 444.txt
+       mkdir five
+       cd five
+       touch 5.txt 55.txt 555.txt
+ 
+Q8.1   ls /home/sunbeam/Desktop/NewFolder/one/two/three/four/five
+Q8.2   cat>> one/two/three/four/44.txt
+Q8.3   rm one/two/three/four/five/555.txt       
+Q8.4   cd one/two/three/four/five
+Q8.5   cat>> /home/sunbeam/Desktop/NewFolder/one/two/three/3.txt
+Q8.6   ls ../../../
+Q8.7   rm ../../222.txt
+Q8.8   ls ../
+Q8.9   rm -rf /home/sunbeam/Desktop/NewFolder/one/two/three/four/five/555.txt 55.txt 5.txt
+Q8.10  rm -rf /home/sunbeam/Desktop/NewFolder/one/two/three/four/five/555.txt 55.txt 5.txt
+Q8.11  rm -r /home/sunbeam/Desktop/NewFolder/one/two/three/four
+Q8.12  cd /home
+Q9     touch -t 201410111612 3.txt
+ 

@@ -1,0 +1,35 @@
+Q1   wc -w data.txt
+Q2   grep files data.txt
+Q3   grep file data.txt
+Q4   grep -v files data.txt
+Q5   grep have data.txt
+Q6   grep ^f data.txt
+Q7   grep "\.$" data.txt
+Q8   head -2 data.txt
+Q9   tail -3 data.txt
+Q10  head -5 data.txt | tail -3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1  count the no. of words ,characters and lines from above 2 file.(man wc)
+2  list the lines having word "files" (man grep)
+3  list the lines having word "file" (man grep)
+4  list the lines which don't have word "files" (man grep)
+5  list the lines having word "have" . (man grep)
+6  list the lines starts with letter "f" (man grep)
+7  list the lines ends with "." (man grep)
+8  list only first two lines.(man head)
+9  list only last three lines.(man tail)
+10 list line no.3,4 and 5 . (man head and tail)
